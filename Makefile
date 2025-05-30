@@ -2,7 +2,7 @@
 
 # Vars
 BASE=$(pwd)
-SERVICE_NAME=atm10-riipeckx-io
+SERVICE_NAME=atm10.riipeckx.io.service
 RCON_PASS=$(shell grep "rcon.password" server.properties | cut -d '=' -f 2)
 
 ifeq (console,$(firstword $(MAKECMDGOALS)))
@@ -14,19 +14,19 @@ help: # Print this help message
 	@grep -E '^[a-zA-Z0-9_]+:.*#.*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*#"} {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
 
 start: # Start Minecraft server
-	@rc-service $(SERVICE_NAME) start
+	@systemctl start $(SERVICE_NAME)
 
 dev: # Start development Minecraft server
 	/usr/bin/sh start.sh
 
 stop: # Stop Minecraft server
-	@rc-service $(SERVICE_NAME) stop
+	@systemctl stop $(SERVICE_NAME)
 
 status: # Get Minecraft server status
-	@rc-service $(SERVICE_NAME) status
+	@systemctl status $(SERVICE_NAME)
 
 console: # Connect to RCON console
-	@/usr/bin/rcon -H localhost -p 25575 -P $(RCON_PASS) $(RUN_ARGS)
+	@/usr/bin/mcrcon -H localhost -p 25575 -P $(RCON_PASS) $(RUN_ARGS)
 
 output: # Follow the server logs
 	@/usr/bin/tail -f ./logs/latest.log
