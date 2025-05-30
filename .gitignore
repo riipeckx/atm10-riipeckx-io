@@ -1,0 +1,12 @@
+# root
+world
+logs
+.mixin.out
+local/
+crash-reports
+libraries
+versions
+usercache.json
+**/*.log
+.envrc
+usernamecache.json
