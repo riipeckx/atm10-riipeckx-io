@@ -5,7 +5,7 @@ After=network.target
 [Service]
 User=root
 Nice=1
-KillMode=none
+KillMode=mixed
 SuccessExitStatus=0 1
 WorkingDirectory=/opt/atm10-riipeckx-io
 ExecStart=/usr/bin/java @user_jvm_args.txt @libraries/net/neoforged/neoforge/21.1.172/unix_args.txt nogui "$@"
