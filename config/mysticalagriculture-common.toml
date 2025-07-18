@@ -1,20 +1,16 @@
 #General configuration options.
 [General]
 	#The percentage chance that a passive or hostile mob will drop an Inferium Essence when killed.
-	# Default: 0.2
-	# Range: 0.0 ~ 1.0
+	#Range: 0.0 ~ 1.0
 	inferiumDropChance = 0.0
 	#The amount of uses the basic Infusion Crystal should have.
-	# Default: 1000
-	# Range: > 10
+	#Range: > 10
 	infusionCrystalUses = 500
 	#The amount of time in seconds between each Growth Accelerator growth tick.
-	# Default: 10
-	# Range: > 1
+	#Range: > 1
 	growthAcceleratorCooldown = 10
 	#The percentage chance that harvesting a Resource Crop will drop a Fertilized Essence.
-	# Default: 0.1
-	# Range: 0.0 ~ 1.0
+	#Range: 0.0 ~ 1.0
 	fertilizedEssenceChance = 0.1
 	#Should crops have a chance of dropping a second seed when harvested?
 	secondarySeedDrops = false
@@ -46,6 +42,5 @@
 	#Should Soulstone generate in the world?
 	generateSoulstone = true
 	#The percentage chance a Soulium Ore spawns in a Soulstone cluster.
-	# Default: 0.05
-	# Range: 0.0 ~ 1.0
+	#Range: 0.0 ~ 1.0
 	souliumOreChance = 0.05
