@@ -33,4 +33,4 @@ output: # Follow the server logs
 
 clean:
 	@echo -n "Are you sure? [y/N] " && read ans && [ $${ans:-N} = y ]
-	@rm -rf $(cat .gitignore) 2>/dev/null
+	@git clean -fdX
