@@ -94,5 +94,10 @@
       "weight": 710,
       "type": "minecraft:empty"
     }
+  ],
+  "conditions": [
+    {
+      "condition": "tombstone:check_player"
+    }
   ]
 }

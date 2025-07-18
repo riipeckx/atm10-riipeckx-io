@@ -66,10 +66,9 @@
     {
       "functions": [
         {
-          "only_vanilla": false,
-          "enchanted_chance": 50,
-          "random_enchantibility": 60,
           "type": "WEAPON",
+          "enchanted_chance": 50,
+          "random_enchantability": 60,
           "function": "tombstone:enchanted_equipment"
         }
       ],
@@ -80,10 +79,9 @@
     {
       "functions": [
         {
-          "only_vanilla": false,
-          "enchanted_chance": 50,
-          "random_enchantibility": 60,
           "type": "TOOL",
+          "enchanted_chance": 50,
+          "random_enchantability": 60,
           "function": "tombstone:enchanted_equipment"
         }
       ],
@@ -94,10 +92,9 @@
     {
       "functions": [
         {
-          "only_vanilla": false,
-          "enchanted_chance": 50,
-          "random_enchantibility": 60,
           "type": "ARMOR",
+          "enchanted_chance": 50,
+          "random_enchantability": 60,
           "function": "tombstone:enchanted_equipment"
         }
       ],

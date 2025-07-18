@@ -12,6 +12,8 @@ noSolicitingChunkRangePlayer = 6
 # Default: 6
 # Range: > 1
 noSolicitingChunkRangeCarpet = 6
+#Enable No Raider module
+noRaiderEnabled = true
 #Block range for muffling sounds with the sound muffler.
 # Default: 8
 # Range: > 1
@@ -50,3 +52,5 @@ windChargeAirSupplyEnabled = true
 # Default: 100
 # Range: > 1
 windChargeAirAmount = 100
+#Enable Cursed Earth module
+cursedEarthEnabled = true
