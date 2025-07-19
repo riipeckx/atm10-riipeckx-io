@@ -29,7 +29,7 @@ console: # Connect to RCON console
 	@/usr/bin/mcrcon -P 25575 -p $(RCON_PASS) $(RUN_ARGS)
 
 backup: # Start a backup right now
- @/usr/bin/mcrcon -P 25575 -p localhost "simplebackups backup start"
+	@/usr/bin/mcrcon -P 25575 -p localhost "simplebackups backup start"
 
 output: # Follow the server logs
 	@/usr/bin/tail -f ./logs/latest.log
