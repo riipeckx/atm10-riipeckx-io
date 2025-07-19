@@ -26,7 +26,7 @@ status: # Get Minecraft server status
 	@systemctl status $(SERVICE_NAME)
 
 console: # Connect to RCON console
-	@/usr/bin/mcrcon -H localhost -p 25575 -P $(RCON_PASS) $(RUN_ARGS)
+	@/usr/bin/mcrcon -P 25575 -p $(RCON_PASS) $(RUN_ARGS)
 
 output: # Follow the server logs
 	@/usr/bin/tail -f ./logs/latest.log
