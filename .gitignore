@@ -9,3 +9,5 @@ usercache.json
 **/*.log
 .envrc
 usernamecache.json
+run.*
+neoforge-*-installer.jar
