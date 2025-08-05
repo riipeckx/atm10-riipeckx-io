@@ -65,7 +65,7 @@
 			y: -2.5d
 		}
 	]
-	order_index: 8
+	order_index: 9
 	quest_links: [{
 		id: "5AFC27C7C61DB808"
 		linked_quest: "017194E29D6745E8"
@@ -120,8 +120,11 @@
 				count: 4
 				id: "3D2BDA118E492E13"
 				item: {
+					components: {
+						"ftbquests:missing_item": "oritech:insulated_wire"
+					}
 					count: 1
-					id: "oritech:insulated_wire"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
