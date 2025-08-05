@@ -1,4 +1,6 @@
 [Etc]
+	#Off the Custom Rendering
+	shadersCompat = true
 	#ScreenShake(on/off)
 	"ScreenShake(on/off)" = true
 	#Forced viewpoint change when hit by a grab attack
@@ -809,3 +811,17 @@
 	# Default: 0.04
 	# Range: 0.0 ~ 1000000.0
 	"Scylla's Lightning Storm HP Damage" = 0.04
+	#Scylla weather change
+	"Scylla Weather Change" = true
+
+["Boss Respawner"]
+	#on/off
+	MonstrosityRespawner = true
+	#on/off
+	EnderGuardianRespawner = true
+	#on/off
+	HarbingerRespawner = true
+	#on/off
+	RemnantRespawner = true
+	#on/off
+	ScyllaRespawner = true
