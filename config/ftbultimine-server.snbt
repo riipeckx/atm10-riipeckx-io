@@ -63,6 +63,7 @@
 			"minecraft:base_stone_overworld"
 			"c:ores/*"
 			"forge:ores/*"
+			"integrateddynamics:menril_logs"
 		]
 		
 		# These tags will be considered the same block when checking for blocks to Ultimine in shaped mining modes
