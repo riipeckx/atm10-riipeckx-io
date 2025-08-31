@@ -1,5 +1,9 @@
 [general]
 	modpackProjectID = 925200
 	modpackName = "All the Mods 10"
+<<<<<<< HEAD
 	modpackVersion = "4.5"
+=======
+	modpackVersion = "4.10"
+>>>>>>> fix/merge
 	useMetadata = false
