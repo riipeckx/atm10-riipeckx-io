@@ -46,5 +46,77 @@
       "pingSound": true,
       "hideFromDiscord": false
     }
+  },
+  {
+    "discordID": "281889471580864514",
+    "mcPlayerUUID": "b8691648-09fe-497f-a3e3-b1318c8afbf0",
+    "floodgateUUID": "",
+    "settings": {
+      "useDiscordNameInChannel": true,
+      "ignoreDiscordChatIngame": false,
+      "ignoreReactions": false,
+      "pingSound": true,
+      "hideFromDiscord": false
+    }
+  },
+  {
+    "discordID": "490245921226096640",
+    "mcPlayerUUID": "745120e7-8347-41fb-9aa5-46a03808aff3",
+    "floodgateUUID": "",
+    "settings": {
+      "useDiscordNameInChannel": true,
+      "ignoreDiscordChatIngame": false,
+      "ignoreReactions": false,
+      "pingSound": true,
+      "hideFromDiscord": false
+    }
+  },
+  {
+    "discordID": "602466622229315598",
+    "mcPlayerUUID": "ab909098-cbb9-4b9b-bff5-ddceda554e76",
+    "floodgateUUID": "",
+    "settings": {
+      "useDiscordNameInChannel": true,
+      "ignoreDiscordChatIngame": false,
+      "ignoreReactions": false,
+      "pingSound": true,
+      "hideFromDiscord": false
+    }
+  },
+  {
+    "discordID": "493815715950886943",
+    "mcPlayerUUID": "bd7df8b1-57f0-449d-a5fd-036e957d6489",
+    "floodgateUUID": "",
+    "settings": {
+      "useDiscordNameInChannel": true,
+      "ignoreDiscordChatIngame": false,
+      "ignoreReactions": false,
+      "pingSound": true,
+      "hideFromDiscord": false
+    }
+  },
+  {
+    "discordID": "874084618612146177",
+    "mcPlayerUUID": "86abb890-7362-409c-994f-0e4520d24933",
+    "floodgateUUID": "",
+    "settings": {
+      "useDiscordNameInChannel": true,
+      "ignoreDiscordChatIngame": false,
+      "ignoreReactions": false,
+      "pingSound": true,
+      "hideFromDiscord": false
+    }
+  },
+  {
+    "discordID": "210142047838011392",
+    "mcPlayerUUID": "49530d31-5464-4cce-9e4e-9e85ed852caa",
+    "floodgateUUID": "",
+    "settings": {
+      "useDiscordNameInChannel": true,
+      "ignoreDiscordChatIngame": false,
+      "ignoreReactions": false,
+      "pingSound": true,
+      "hideFromDiscord": false
+    }
   }
 ]
