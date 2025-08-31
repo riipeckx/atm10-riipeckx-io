@@ -1,3 +1,8 @@
+#The maximum amount of random ticks the farmer can do on a crop block in a single use of fertilizer
+#Default: 80
+# Default: 80
+# Range: 1 ~ 1000
+farmer_fertilizer_max_random_ticks = 80
 #The maximum amount of connections a machine chainer can have
 #Default: 64
 # Default: 64
@@ -11,11 +16,6 @@ tesla_coil_range = 32
 #Whether upgrades should be allowed in the Processing Array
 #Default: true
 allow_upgrades_in_processing_array = true
-#The maximum amount of random ticks the farmer can do on a crop block in a single use of fertilizer
-#Default: 80
-# Default: 80
-# Range: 1 ~ 1000
-farmer_fertilizer_max_random_ticks = 80
 
 [batching_machines]
 	#The maximum batch size to use for the Large Electric Macerator
