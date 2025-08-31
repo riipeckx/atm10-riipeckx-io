@@ -17,6 +17,7 @@ mods/*.jar
 !mods/minimotd*.jar
 neoforge-*-installer.jar
 packmenu/
+patchouli_books/
 run.*
 server-icon.png
 ServerFiles-*.zip
