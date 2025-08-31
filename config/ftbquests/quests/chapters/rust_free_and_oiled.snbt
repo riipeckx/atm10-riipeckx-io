@@ -7,7 +7,7 @@
 		id: "modern_industrialization:digital_circuit"
 	}
 	id: "3B1C95642D1861F7"
-	order_index: 2
+	order_index: 4
 	quest_links: [{
 		id: "6121FEB7DFD64283"
 		linked_quest: "017194E29D6745E8"

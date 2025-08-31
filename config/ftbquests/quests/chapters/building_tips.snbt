@@ -1782,6 +1782,7 @@
 					type: "item"
 				}
 				{
+					count: 4
 					exclude_from_claim_all: true
 					id: "221B83F8C189F1A1"
 					item: {
