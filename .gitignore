@@ -1,6 +1,8 @@
 .envrc
 .mixin.out
 **/*.log
+config/spark/activity.json
+config/spark/profile-*.sparkprofile
 crash-reports/
 datapacks/
 defaultconfigs/
