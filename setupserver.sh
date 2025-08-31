@@ -9,6 +9,9 @@ ATM10_INSTALL_ONLY=true
 INSTALLER="neoforge-$NEOFORGE_VERSION-installer.jar"
 NEOFORGE_URL="https://maven.neoforged.net/releases/net/neoforged/neoforge/$NEOFORGE_VERSION/neoforge-$NEOFORGE_VERSION-installer.jar"
 
+ATM10_VERSION=4.10
+SERVERFILES_URL="https://mediafilez.forgecdn.net/files/6921/537/ServerFiles-4.10.zip"
+
 pause() {
     printf "%s\n" "Press enter to continue..."
     read ans
@@ -44,15 +47,6 @@ if [ ! -d libraries ]; then
     "${ATM10_JAVA:-java}" -jar "$INSTALLER" -installServer
 fi
 
-# if [ ! -e server.properties ]; then
-#     printf "allow-flight=true\nmotd=All the Mods 10\nmax-tick-time=180000" >server.properties
-# fi
-
-if [ "${ATM10_INSTALL_ONLY:-false}" = "true" ]; then
-    echo "INSTALL_ONLY: complete"
-    exit 0
-fi
-
 JAVA_VERSION=$("${ATM10_JAVA:-java}" -fullversion 2>&1 | awk -F '"' '/version/ {print $2}' | cut -d'.' -f1)
 if [ ! "$JAVA_VERSION" -ge 21 ]; then
     echo "Minecraft 1.21 requires Java 21 - found Java $JAVA_VERSION"
@@ -60,13 +54,29 @@ if [ ! "$JAVA_VERSION" -ge 21 ]; then
     exit 1
 fi
 
-while true; do
-    "${ATM10_JAVA:-java}" @user_jvm_args.txt @libraries/net/neoforged/neoforge/$NEOFORGE_VERSION/unix_args.txt nogui
-
-    if [ "${ATM10_RESTART:-true}" = "false" ]; then
-        exit 0
+# Download $SERVERFILES if not present
+if [ ! -f "ServerFiles-$ATM10_VERSION.zip" ]; then
+    echo "No server files found, downloading now."
+    if command -v wget >/dev/null 2>&1; then
+        echo "DEBUG: (wget) Downloading $SERVERFILES_URL"
+        wget -O "ServerFiles-$ATM10_VERSION.zip" "$SERVERFILES_URL"
+    else
+        if command -v curl >/dev/null 2>&1; then
+            echo "DEBUG: (curl) Downloading $SERVERFILES_URL"
+            curl -o "ServerFiles-$ATM10_VERSION.zip" -L "$SERVERFILES_URL"
+        else
+            echo "Neither wget or curl were found on your system. Please install one and try again"
+            pause
+            exit 1
+        fi
     fi
-
-    echo "Restarting automatically in 10 seconds (press Ctrl + C to cancel)"
-    sleep 10
-done
+    echo "Unzipping server files."
+    if command -v unzip >/dev/null 2>&1; then
+        unzip -o ServerFiles-$ATM10_VERSION.zip -x "config/*" -d .
+        rm ServerFiles-$ATM10_VERSION.zip
+    else
+        echo "unzip not found on your system. Please install it and try again."
+        pause
+        exit 1
+    fi
+fi
