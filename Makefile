@@ -34,6 +34,6 @@ backup: # Start a backup right now
 output: # Follow the server logs
 	@/usr/bin/tail -f ./logs/latest.log
 
-clean:
+clean: # Remove all untracked files (use with caution)
 	@echo -n "Are you sure? [y/N] " && read ans && [ $${ans:-N} = y ]
 	@git clean -fdX
