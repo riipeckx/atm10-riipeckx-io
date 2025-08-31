@@ -20,7 +20,6 @@ patchouli_books/
 run.*
 server-icon.png
 ServerFiles-*.zip
-start.sh
 startserver.*
 usercache.json
 usernamecache.json
