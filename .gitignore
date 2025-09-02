@@ -16,6 +16,7 @@ mods/*.jar
 !mods/SimpleBackups*.jar
 !mods/dcintegration-*.jar
 !mods/minimotd*.jar
+!mods/observable*.jar
 neoforge-*-installer.jar
 packmenu/
 patchouli_books/
