@@ -4,9 +4,9 @@
 sleep 30
 
 /usr/bin/mcrcon -H localhost -P 25575 -p localhost "say Server stopping in 30 seconds..."
-sleep 20
+sleep 27
 
-for i in {10..1}; do
+for i in {3..1}; do
   /usr/bin/mcrcon -H localhost -P 25575 -p localhost "say Server stopping in $i seconds..."
   sleep 1
 done
