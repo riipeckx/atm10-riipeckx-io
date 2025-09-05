@@ -640,7 +640,7 @@
 		#The highest attack Caliburn can go to
 		# Default: 5000000
 		# Range: 0 ~ 100000000
-		POWER_CONSOLIDATION_ATTACK_CAP = 60
+		POWER_CONSOLIDATION_ATTACK_CAP = 5000000
 		#This is the range for smiting undead mobs with Caliburn
 		# Default: 30
 		# Range: 0 ~ 100000000
