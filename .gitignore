@@ -3,6 +3,7 @@
 **/*.log
 config/spark/activity.json
 config/spark/profile-*.sparkprofile
+config/spark/tmp-client/
 crash-reports/
 datapacks/
 defaultconfigs/
