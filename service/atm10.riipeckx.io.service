@@ -8,8 +8,8 @@ Nice=1
 KillMode=mixed
 SuccessExitStatus=0 1
 WorkingDirectory=/opt/atm10-riipeckx-io
-ExecStart=/usr/bin/java @user_jvm_args.txt @libraries/net/neoforged/neoforge/21.1.203/unix_args.txt nogui "$@"
-ExecStop=/usr/bin/mcrcon -P 25575 -p localhost save-all stop
+ExecStart=/usr/bin/bash start.sh
+ExecStop=/usr/bin/bash stop.sh
 Restart=on-failure
 RestartSec=1s
 
