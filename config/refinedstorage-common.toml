@@ -1,12 +1,12 @@
 #Allowed Values: STRETCH, SMALL, MEDIUM, LARGE, EXTRA_LARGE
 screenSize = "STRETCH"
 smoothScrolling = true
-autocraftingNotification = true
-debug = false
 # Default: 256
 # Range: 3 ~ 256
 maxRowsStretch = 256
 searchBoxAutoSelected = false
+autocraftingNotification = true
+debug = false
 #Allowed Values: LIST, TREE
 autocraftingPreviewStyle = "LIST"
 
@@ -37,15 +37,15 @@ autocraftingPreviewStyle = "LIST"
 	energyUsagePerDisk = 4
 
 [grid]
-	detailedTooltip = true
 	largeFont = false
 	preventSortingWhileShiftIsDown = true
+	detailedTooltip = true
 	rememberSearchQuery = false
 	# Default: 10
 	# Range: 0 ~ 9223372036854775807
 	energyUsage = 10
-	resourceType = ""
 	synchronizer = ""
+	resourceType = ""
 	#Allowed Values: ASCENDING, DESCENDING
 	sortingDirection = "ASCENDING"
 	#Allowed Values: QUANTITY, NAME, ID, LAST_MODIFIED

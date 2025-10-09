@@ -7,7 +7,7 @@
 		id: "modern_industrialization:digital_circuit"
 	}
 	id: "3B1C95642D1861F7"
-	order_index: 4
+	order_index: 6
 	quest_links: [{
 		id: "6121FEB7DFD64283"
 		linked_quest: "017194E29D6745E8"
@@ -104,7 +104,7 @@
 				{
 					count: 30L
 					id: "393A55967351655D"
-					item: { count: 30, id: "modern_industrialization:frostproof_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:frostproof_machine_casing" }
 					type: "item"
 				}
 			]
@@ -239,7 +239,7 @@
 				{
 					count: 4L
 					id: "772D6D41817DFBBA"
-					item: { count: 4, id: "minecraft:chain" }
+					item: { count: 1, id: "minecraft:chain" }
 					type: "item"
 				}
 				{
@@ -265,13 +265,13 @@
 				{
 					count: 13L
 					id: "0F4B5DEFC4AA69F0"
-					item: { count: 13, id: "modern_industrialization:steel_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "1D6C8A556DF1F7AF"
-					item: { count: 6, id: "modern_industrialization:steel_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing_pipe" }
 					type: "item"
 				}
 			]
@@ -341,19 +341,19 @@
 				{
 					count: 33L
 					id: "7D5EE5B6A4BA3FDF"
-					item: { count: 33, id: "modern_industrialization:steel_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "2F5BEF2F48728B0E"
-					item: { count: 6, id: "modern_industrialization:steel_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing_pipe" }
 					type: "item"
 				}
 				{
 					count: 18L
 					id: "2C9ED1E514F3F0AA"
-					item: { count: 18, id: "minecraft:chain" }
+					item: { count: 1, id: "minecraft:chain" }
 					type: "item"
 				}
 				{

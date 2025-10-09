@@ -227,7 +227,7 @@
 			y: 8.5d
 		}
 	]
-	order_index: 8
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -1227,7 +1227,7 @@
 			tasks: [{
 				count: 26L
 				id: "7448F49F4C7F8DBB"
-				item: { count: 26, id: "railcraft:coke_oven_bricks" }
+				item: { count: 1, id: "railcraft:coke_oven_bricks" }
 				type: "item"
 			}]
 			x: 7.5d
@@ -1249,7 +1249,7 @@
 			tasks: [{
 				count: 34L
 				id: "1671149B2E170E87"
-				item: { count: 34, id: "railcraft:blast_furnace_bricks" }
+				item: { count: 1, id: "railcraft:blast_furnace_bricks" }
 				type: "item"
 			}]
 			x: 7.5d

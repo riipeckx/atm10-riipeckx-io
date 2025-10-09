@@ -934,7 +934,7 @@
 				{
 					count: 28L
 					id: "1C6FD3400BF1D256"
-					item: { count: 28, id: "allthemodium:unobtainium_allthemodium_alloy_block" }
+					item: { count: 1, id: "allthemodium:unobtainium_allthemodium_alloy_block" }
 					type: "item"
 				}
 				{
@@ -2771,7 +2771,7 @@
 			tasks: [{
 				count: 8L
 				id: "1BDB9CA7D068A432"
-				item: { count: 8, id: "minecraft:green_concrete_powder" }
+				item: { count: 1, id: "minecraft:green_concrete_powder" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -2789,7 +2789,7 @@
 			tasks: [{
 				count: 2L
 				id: "7777B968A5342389"
-				item: { count: 2, id: "minecraft:lime_concrete" }
+				item: { count: 1, id: "minecraft:lime_concrete" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -2807,7 +2807,7 @@
 			tasks: [{
 				count: 13L
 				id: "1DFED38C1282DAFE"
-				item: { count: 17, id: "minecraft:magenta_concrete" }
+				item: { count: 1, id: "minecraft:magenta_concrete" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -2825,7 +2825,7 @@
 			tasks: [{
 				count: 8L
 				id: "284C5A44EECDB0F2"
-				item: { count: 8, id: "minecraft:magenta_concrete_powder" }
+				item: { count: 1, id: "minecraft:magenta_concrete_powder" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -2843,7 +2843,7 @@
 			tasks: [{
 				count: 11L
 				id: "68D520511388D29F"
-				item: { count: 11, id: "minecraft:pink_concrete" }
+				item: { count: 1, id: "minecraft:pink_concrete" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -2861,7 +2861,7 @@
 			tasks: [{
 				count: 5L
 				id: "28BB20E22FFCBBC1"
-				item: { count: 11, id: "minecraft:pink_concrete_powder" }
+				item: { count: 1, id: "minecraft:pink_concrete_powder" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -3666,37 +3666,37 @@
 				{
 					count: 8L
 					id: "67A533CBB47640D3"
-					item: { count: 8, id: "forbidden_arcanus:arcane_polished_darkstone" }
+					item: { count: 1, id: "forbidden_arcanus:arcane_polished_darkstone" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "318AD48CD9B5AE51"
-					item: { count: 4, id: "forbidden_arcanus:chiseled_arcane_polished_darkstone" }
+					item: { count: 1, id: "forbidden_arcanus:chiseled_arcane_polished_darkstone" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "0A40DB7C36ADC441"
-					item: { count: 8, id: "forbidden_arcanus:darkstone_pedestal" }
+					item: { count: 1, id: "forbidden_arcanus:darkstone_pedestal" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "19710811292FFD8F"
-					item: { count: 8, id: "forbidden_arcanus:arcane_crystal_obelisk" }
+					item: { count: 1, id: "forbidden_arcanus:arcane_crystal_obelisk" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "67D42E0DB8AA7578"
-					item: { count: 4, id: "forbidden_arcanus:arcane_crystal_block" }
+					item: { count: 1, id: "forbidden_arcanus:arcane_crystal_block" }
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "15AE854C96012C43"
-					item: { count: 16, id: "forbidden_arcanus:rune_block" }
+					item: { count: 1, id: "forbidden_arcanus:rune_block" }
 					type: "item"
 				}
 				{
@@ -3712,37 +3712,37 @@
 				{
 					count: 48L
 					id: "12C139C9F719CDA4"
-					item: { count: 48, id: "forbidden_arcanus:polished_darkstone_stairs" }
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone_stairs" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "180F54EFAC7A51F5"
-					item: { count: 64, id: "forbidden_arcanus:polished_darkstone" }
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "79962A6232D7FAA5"
-					item: { count: 64, id: "forbidden_arcanus:polished_darkstone" }
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "13D2C035C8E5A6A6"
-					item: { count: 64, id: "forbidden_arcanus:polished_darkstone" }
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "306B1B0DCA17C47A"
-					item: { count: 64, id: "forbidden_arcanus:polished_darkstone" }
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "7A88277A22BBC23D"
-					item: { count: 2, id: "forbidden_arcanus:polished_darkstone" }
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone" }
 					type: "item"
 				}
 				{
