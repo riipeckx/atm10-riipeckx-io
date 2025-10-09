@@ -156,19 +156,19 @@
 				{
 					count: 27L
 					id: "7D33D97FB58E32CE"
-					item: { count: 27, id: "modern_industrialization:nuclear_alloy_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:nuclear_alloy_machine_casing_pipe" }
 					type: "item"
 				}
 				{
 					count: 68L
 					id: "7DE696D12BF65715"
-					item: { count: 77, id: "modern_industrialization:nuclear_casing" }
+					item: { count: 1, id: "modern_industrialization:nuclear_casing" }
 					type: "item"
 				}
 				{
 					count: 9L
 					id: "193636DAA3EAD220"
-					item: { count: 9, id: "modern_industrialization:nuclear_item_hatch" }
+					item: { count: 1, id: "modern_industrialization:nuclear_item_hatch" }
 					type: "item"
 				}
 			]

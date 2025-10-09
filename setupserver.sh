@@ -1,16 +1,8 @@
 #!/bin/sh
 set -eu
-NEOFORGE_VERSION=21.1.203
-# To use a specific Java runtime, set an environment variable named ATM10_JAVA to the full path of java.exe.
-# To disable automatic restarts, set an environment variable named ATM10_RESTART to false.
-# To install the pack without starting the server, set an environment variable named ATM10_INSTALL_ONLY to true.
-ATM10_RESTART=false
-ATM10_INSTALL_ONLY=true
+NEOFORGE_VERSION=21.1.209
 INSTALLER="neoforge-$NEOFORGE_VERSION-installer.jar"
 NEOFORGE_URL="https://maven.neoforged.net/releases/net/neoforged/neoforge/$NEOFORGE_VERSION/neoforge-$NEOFORGE_VERSION-installer.jar"
-
-ATM10_VERSION=4.10
-SERVERFILES_URL="https://mediafilez.forgecdn.net/files/6921/537/ServerFiles-4.10.zip"
 
 pause() {
     printf "%s\n" "Press enter to continue..."
@@ -52,31 +44,4 @@ if [ ! "$JAVA_VERSION" -ge 21 ]; then
     echo "Minecraft 1.21 requires Java 21 - found Java $JAVA_VERSION"
     pause
     exit 1
-fi
-
-# Download $SERVERFILES if not present
-if [ ! -f "ServerFiles-$ATM10_VERSION.zip" ]; then
-    echo "No server files found, downloading now."
-    if command -v wget >/dev/null 2>&1; then
-        echo "DEBUG: (wget) Downloading $SERVERFILES_URL"
-        wget -O "ServerFiles-$ATM10_VERSION.zip" "$SERVERFILES_URL"
-    else
-        if command -v curl >/dev/null 2>&1; then
-            echo "DEBUG: (curl) Downloading $SERVERFILES_URL"
-            curl -o "ServerFiles-$ATM10_VERSION.zip" -L "$SERVERFILES_URL"
-        else
-            echo "Neither wget or curl were found on your system. Please install one and try again"
-            pause
-            exit 1
-        fi
-    fi
-    echo "Unzipping server files."
-    if command -v unzip >/dev/null 2>&1; then
-        unzip -o ServerFiles-$ATM10_VERSION.zip -x "config/*" -d .
-        rm ServerFiles-$ATM10_VERSION.zip
-    else
-        echo "unzip not found on your system. Please install it and try again."
-        pause
-        exit 1
-    fi
 fi

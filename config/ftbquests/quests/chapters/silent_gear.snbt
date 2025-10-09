@@ -1563,7 +1563,7 @@
 			shape: "circle"
 			tasks: [{
 				id: "29FFC1A3BFF17BBC"
-				item: { count: 4, id: "silentgear:crimson_steel_block" }
+				item: { count: 1, id: "silentgear:crimson_steel_block" }
 				type: "item"
 			}]
 			x: 19.5d

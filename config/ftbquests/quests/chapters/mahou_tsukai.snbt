@@ -287,7 +287,7 @@
 				{
 					count: 2L
 					id: "4A084703BE712433"
-					item: { count: 2, id: "mahoutsukai:powdered_iron" }
+					item: { count: 1, id: "mahoutsukai:powdered_iron" }
 					type: "item"
 				}
 				{
@@ -333,7 +333,7 @@
 				{
 					count: 2L
 					id: "5AE0B9B99B80AE07"
-					item: { count: 2, id: "mahoutsukai:powdered_emerald" }
+					item: { count: 1, id: "mahoutsukai:powdered_emerald" }
 					type: "item"
 				}
 			]
@@ -374,7 +374,7 @@
 				{
 					count: 2L
 					id: "17FF908275004895"
-					item: { count: 2, id: "mahoutsukai:powdered_emerald" }
+					item: { count: 1, id: "mahoutsukai:powdered_emerald" }
 					type: "item"
 				}
 			]
@@ -470,7 +470,7 @@
 				{
 					count: 2L
 					id: "2214CCA41C2062D5"
-					item: { count: 2, id: "mahoutsukai:powdered_diamond" }
+					item: { count: 1, id: "mahoutsukai:powdered_diamond" }
 					type: "item"
 				}
 				{
@@ -690,7 +690,7 @@
 				{
 					count: 2L
 					id: "21CEAE027D983282"
-					item: { count: 2, id: "mahoutsukai:powdered_diamond" }
+					item: { count: 1, id: "mahoutsukai:powdered_diamond" }
 					type: "item"
 				}
 				{
@@ -1012,7 +1012,7 @@
 				{
 					count: 2L
 					id: "381CBCFB71018C25"
-					item: { count: 2, id: "mahoutsukai:powdered_gold" }
+					item: { count: 1, id: "mahoutsukai:powdered_gold" }
 					type: "item"
 				}
 				{
@@ -1083,7 +1083,7 @@
 				{
 					count: 2L
 					id: "18980EBAE4ED777A"
-					item: { count: 2, id: "mahoutsukai:powdered_gold" }
+					item: { count: 1, id: "mahoutsukai:powdered_gold" }
 					type: "item"
 				}
 				{
@@ -1154,7 +1154,7 @@
 				{
 					count: 2L
 					id: "0754EB6E2BC4CBE4"
-					item: { count: 2, id: "mahoutsukai:powdered_diamond" }
+					item: { count: 1, id: "mahoutsukai:powdered_diamond" }
 					type: "item"
 				}
 				{
@@ -1224,7 +1224,7 @@
 			tasks: [
 				{
 					id: "664ADBD5CACCEC65"
-					item: { count: 2, id: "mahoutsukai:powdered_gold" }
+					item: { count: 1, id: "mahoutsukai:powdered_gold" }
 					type: "item"
 				}
 				{

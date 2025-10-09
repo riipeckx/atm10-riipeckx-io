@@ -400,7 +400,7 @@
 				{
 					count: 31L
 					id: "2B7B934A14B803B3"
-					item: { count: 31, id: "modern_industrialization:fire_clay_bricks" }
+					item: { count: 1, id: "modern_industrialization:fire_clay_bricks" }
 					type: "item"
 				}
 				{
@@ -611,13 +611,13 @@
 				{
 					count: 13L
 					id: "25EE6F30DA423797"
-					item: { count: 13, id: "modern_industrialization:steel_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "67C59F34ACE258CD"
-					item: { count: 6, id: "modern_industrialization:steel_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing_pipe" }
 					type: "item"
 				}
 				{

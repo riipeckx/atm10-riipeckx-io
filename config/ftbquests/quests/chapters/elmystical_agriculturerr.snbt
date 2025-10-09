@@ -1154,7 +1154,7 @@
 				{
 					count: 4L
 					id: "1E8B2243116BF6DA"
-					item: { count: 4, id: "mysticalagriculture:soul_jar" }
+					item: { count: 1, id: "mysticalagriculture:soul_jar" }
 					type: "item"
 				}
 				{
@@ -3129,7 +3129,7 @@
 				{
 					count: 4L
 					id: "08B7E48447228764"
-					item: { count: 4, id: "mysticalagriculture:experience_capsule" }
+					item: { count: 1, id: "mysticalagriculture:experience_capsule" }
 					type: "item"
 				}
 			]

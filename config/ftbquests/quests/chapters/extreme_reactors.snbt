@@ -355,7 +355,7 @@
 			tasks: [{
 				count: 4L
 				id: "57D3013D5136E202"
-				item: { count: 4, id: "alltheores:uranium_ingot" }
+				item: { count: 1, id: "alltheores:uranium_ingot" }
 				type: "item"
 			}]
 			x: -7.0d

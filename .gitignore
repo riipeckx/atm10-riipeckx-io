@@ -7,6 +7,7 @@ config/spark/tmp-client/
 crash-reports/
 datapacks/
 defaultconfigs/
+dynamic-data-pack-cache/
 journeymap/
 kubejs/
 libraries/
@@ -15,6 +16,7 @@ logs/
 mods/*.jar
 # Do not ignore specific files in mods folder
 !mods/SimpleBackups*.jar
+!mods/architectury*.jar
 !mods/dcintegration-*.jar
 !mods/minimotd*.jar
 !mods/observable*.jar

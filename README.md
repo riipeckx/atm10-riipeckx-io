@@ -38,12 +38,12 @@
 
 ## Upgrade Steps
 
-1. **Backup your server**: Always start by creating a backup of your server files and world data.
-
-- Using the integrated `make` target:
-
-    ```bash
-    make backup
-    ```
-
 Follow these steps to upgrade your Minecraft server: [here](https://allthemods.github.io/alltheguides/help/server/#manually-2-methods)
+
+- Backup your server
+
+- Download the latest server files
+
+- Unzip the downloaded server files
+
+- Run the `setupserver.sh` script to install the new version of NeoForge and set up the server

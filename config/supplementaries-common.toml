@@ -1,13 +1,13 @@
 [redstone]
+	wind_vane = true
 	clock_block = true
-	cog_block = true
+	redstone_illuminator = true
 	crank = true
+	cog_block = true
 	gold_door = true
 	gold_trapdoor = true
 	lock_block = true
-	redstone_illuminator = true
 	relayer = true
-	wind_vane = true
 
 	[redstone.speaker_block]
 		enabled = true
@@ -58,8 +58,8 @@
 		fall_height_required = 5
 
 	[redstone.enderman_head]
-		drop_head = true
 		enabled = true
+		drop_head = true
 		#Time to increase 1 power level when being looked at
 		# Default: 15
 		# Range: 0 ~ 10000
@@ -185,11 +185,11 @@
 
 	[functional.urn]
 		enabled = true
-		cave_urns = true
 		#Chance for an urn to spawn a critter from the urn_spawn tag
 		# Default: 0.01
 		# Range: 0.0 ~ 1.0
 		critter_spawn_chance = 0.01
+		cave_urns = true
 
 	[functional.soap]
 		enabled = true
@@ -198,9 +198,9 @@
 
 		#This is a map of special blocks that can be cleaned with soap
 		[functional.soap.special_blocks]
-			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
-			"minecraft:sticky_piston" = "minecraft:piston"
 			"quark:dirty_glass" = "minecraft:glass"
+			"minecraft:sticky_piston" = "minecraft:piston"
+			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
 			"quark:dirty_glass_pane" = "minecraft:glass_pane"
 
 	[functional.cannon]
@@ -268,26 +268,26 @@
 			glowing_duration = 200
 
 [building]
-	blackstone_lamp = true
-	blackstone_tile = true
-	bunting = true
-	candle_holder = true
-	checker_block = true
-	deepslate_lamp = true
-	doormat = true
-	end_stone_lamp = true
-	feather_block = true
-	fine_wood = true
-	fire_pit = true
-	flint_block = true
 	lapis_bricks = true
-	pancake = true
-	raked_gravel = true
-	sconce = true
-	sconce_lever = true
-	statue = true
+	deepslate_lamp = true
+	end_stone_lamp = true
+	blackstone_lamp = true
 	stone_lamp = true
 	stone_tile = true
+	blackstone_tile = true
+	bunting = true
+	sconce = true
+	sconce_lever = true
+	pancake = true
+	checker_block = true
+	raked_gravel = true
+	feather_block = true
+	statue = true
+	doormat = true
+	flint_block = true
+	fine_wood = true
+	candle_holder = true
+	fire_pit = true
 	wicker_fence = true
 
 	[building.blackboard]
@@ -434,10 +434,10 @@
 		unbreakable = false
 
 [tools]
-	altimeter = true
 	candy = true
-	confetti_popper = true
 	stasis = true
+	altimeter = true
+	confetti_popper = true
 
 	[tools.quiver]
 		enabled = true
@@ -590,14 +590,14 @@
 	dispensers = true
 	#Creates a creative tab full of filled jars
 	jar_tab = false
-	#Save generated resources to disk in a 'debug' folder in your game directory. Mainly for debug purposes but can be used to generate assets in all wood types for your mods :0
-	debug_save_dynamic_pack = false
 	#Disable startup messages and sanity check that the mod performs to inform of possible detected crashes that might occur due to issues
 	sanity_checks_messages = true
 	#slightly increase this or decrease this number to tweak the red merchant spawn chance. Won't spawn at 0 and will spawn twice as often on 2
 	# Default: 1.0
 	# Range: 0.0 ~ 10.0
 	red_merchant_spawn_multiplier = 1.0
+	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
+	dynamic_assets_generation_mode = "CACHED"
 
 #Vanilla tweaks
 [tweaks]
@@ -704,7 +704,7 @@
 	[tweaks.bad_luck_tweaks]
 		#Hit a void cat, get the unluck
 		cat_unluck = true
-		#If you have unluck you are more likely to get hit by a lighting
+		#If you have unluck you are more likely to get hit by a lighting. Holding a lightning rod also causes this
 		lightning_unluck = true
 
 	[tweaks.item_lore]

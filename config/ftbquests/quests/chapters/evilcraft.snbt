@@ -796,7 +796,7 @@
 				{
 					count: 33L
 					id: "3CD25851F90C3E12"
-					item: { count: 33, id: "evilcraft:dark_blood_brick" }
+					item: { count: 1, id: "evilcraft:dark_blood_brick" }
 					type: "item"
 				}
 			]

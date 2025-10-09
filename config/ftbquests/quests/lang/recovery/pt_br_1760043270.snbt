@@ -1,0 +1,27 @@
+{
+	"chapters/iron_spells_and_spellbooks.snbt": {
+		quest.395A33977B18B9AD.quest_desc: {
+			new: [
+				"Após tentar colher as &5Pilhas de Armaduras&r, elas parecem voltar à vida como se houvesse um corpo usando-as. Elas também podem vir de Geradores de Mobs. \\n\\nElas têm 60 &4Corações&r e são diferentes de outros chefes, pois não usam magia, ao contrário, acredito que são algo feito de magia. Elas atacarão usando sua Espada, seja balançando-a ou carregando em sua direção com ela. \\n\\nPelo que eu vi, elas atacarão tudo o que virem, exceto outros &5&lCavaleiros&r! \\n\\nUma vez mortas, elas soltarão Fragmentos de Netherite e &cEssência de Cinder&r. Raramente soltarão sua &5Arma&r e as que estão na &cCidadela&r soltarão Chaves Decrépitas."
+				"{image:atm:textures/questpics/iron_spells/spells_knight.png width:100 height:150 align:center}"
+			]
+			old: [
+				"Depois de tentar colher as &5Pilhas de Armadura&r, elas parecem voltar à vida como se houvesse um corpo usando-as. \\n\\nElas têm 60 Corações e são diferentes de outros chefes, pois não usam magia, na verdade, acredito que são algo feito de magia. Elas atacarão usando sua Espada, balançando-a ou investindo contra você com ela. \\n\\nDo que eu vi, elas atacarão tudo o que virem, exceto outros &5&lCavaleiros&r! \\n\\nUma vez mortas, elas droparam Fragmentos de Netherita e Essência de Cinza, isso definitivamente deve ser de bom uso!"
+				"{image:atm:textures/questpics/iron_spells/spells_knight.png width:100 height:200 align:center}"
+			]
+		}
+	}
+	"chapters/cataclysm.snbt": {
+		quest.45FBEABEBA7CC09E.quest_desc: {
+			new: [
+				"Quem sabe o que aconteceu para trazer essa &5Cidade&r para debaixo da &9Água&r, mas claramente está lá! Você perceberá facilmente pelos Tijolos de Pedra saindo da &9Água&r. \\n\\nA primeira e maior sala é o Centro da Cidade, a enorme cúpula! É aqui que está o &5Altar do Abismo&r. \\n\\nA partir das salas você encontrará corredores que levam a outros prédios na &5Cidade&r. Prisões com &5Coralussus&r e até Salas de Tesouro com toneladas de Loot preciosos! \\n\\nPor toda a &5Cidade&r você encontrará seus habitantes, os &5Deeplings&r. "
+				"{image:atm:textures/questpics/cataclysm/cataclysm_city.png width:200 height:100 align:center}"
+			]
+			old: ["Quem sabe o que aconteceu para levar esta &5Cidade&r para debaixo d'&9Água&r, mas claramente está! Você a notará facilmente pelos Tijolos de Pedra saindo da &9Água&r. \\n\\nA primeira e maior sala é o Centro da Cidade, a cúpula gigante! É aqui que fica o &5Altar do Abismo&r. \\n\\nA partir das salas, você encontrará corredores que levam a outros edifícios na &5Cidade&r. Prisões contendo &5Coralussus&r e até Salas de Tesouro com toneladas de Saques preciosos! \\n\\nPor toda a &5Cidade&r você encontrará seus habitantes, os &5Deeplings&r."]
+		}
+		quest.0496E8E786262464.title: {
+			new: "&2Mundo Superior&r: Terra de &m3 4&r 5 chefes"
+			old: "&2Mundo Superior&r: Terra de &m3&r 4 chefes"
+		}
+	}
+}
