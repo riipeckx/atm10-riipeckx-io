@@ -7,6 +7,7 @@ config/spark/tmp-client/
 crash-reports/
 datapacks/
 defaultconfigs/
+dynamic-data-pack-cache/
 journeymap/
 kubejs/
 libraries/
